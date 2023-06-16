@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+/* PRODUCT DETAILS CAROUSEL STYLING CUSTOMIZATION START */
+.productDetailsCarousel.carousel-root {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}
+
+.productDetailsCarousel.carousel-root .carousel {
+  width: auto;
+}
+
+.productDetailsCarousel.carousel-root .carousel.carousel-slider {
+  width: 100%;
+}
+
+.productDetailsCarousel.carousel-root .carousel.carousel-slider .slider-wrapper {
+  border-radius: 10px;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumbs-wrapper {
+  margin: 0;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumb {
+  height: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumb:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumb.selected,
+.productDetailsCarousel.carousel-root .carousel .thumb:hover {
+  border: 0;
+}
+
+.productDetailsCarousel.carousel-root .carousel .thumb:hover:after,
+.productDetailsCarousel.carousel-root .carousel .thumb.selected:after {
+  opacity: 0.2;
+}
+
+.productDetailsCarousel .control-arrow {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .productDetailsCarousel.carousel-root {
+    flex-direction: column;
+  }
+
+  .productDetailsCarousel.carousel-root .carousel .thumb {
+    border: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .productDetailsCarousel.carousel-root .carousel .thumbs {
+    transform: none !important;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+
+  .productDetailsCarousel.carousel-root .carousel .thumb {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* PRODUCT DETAILS CAROUSEL STYLING CUSTOMIZATION END */
+
+.markdown ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+  margin: 20px 0;
+}
+
+.markdown ul li {
+  margin: 10px 0;
+}
