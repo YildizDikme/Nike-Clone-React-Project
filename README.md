@@ -47,7 +47,7 @@ Bu proje hala devam etmekte ve ilerleyen zamanlarda aşağıdaki geliştirmeler 
 
 - Geri kalan sayfaların tamamlanması: Diğer sayfaların klonlarını oluşturmak için çalışmalar devam etmektedir. Ana sayfanın yanı sıra, ürün detay sayfası, sepet sayfası ve kullanıcı profil sayfası gibi sayfaları da eklemeyi planlıyorum.
 
-- Backend entegrasyonu: Projenin backend kısmını oluşturmak için StarAPI gibi bir API kullanmayı düşünüyorum. Bu sayede, gerçek verilerle çalışan bir uygulama oluşturarak daha gerçekçi bir deneyim sunmayı hedefliyorum.
+- Backend entegrasyonu: Projenin backend kısmını oluşturmak için Strapi gibi bir API kullanmayı düşünüyorum. Bu sayede, gerçek verilerle çalışan bir uygulama oluşturarak daha gerçekçi bir deneyim sunmayı hedefliyorum.
 
 Bu planlar doğrultusunda projeyi sürekli olarak güncellemeye devam edeceğim.
 
