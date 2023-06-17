@@ -7,6 +7,13 @@ Bu proje, Nike'ın UI/UX sayfasını klonlamak için yapılmıştır. Kendimi ge
 
 Bu proje, Nike'ın resmi web sitesindeki UI/UX sayfasını klonlamayı hedeflemektedir. Bu sayfada, orijinal tasarımın görünümünü ve işlevselliğini taklit etmeye çalıştım. Kullanıcılar, sayfada bulunan kaydırma özelliğiyle farklı ürünler arasında gezinebilirler. Ayrıca, sayfadaki etkileşimli bileşenler ve geçişlerle orijinal deneyime benzer bir his vermeye çalıştım.
 
+<img width="1440" alt="image" src="https://github.com/YildizDikme/Nike-Clone-React-Project/assets/103577317/bda4931b-03c0-4a10-88d0-1db14946a58e">
+
+Ayrıca orjinal Nike projesinden bağımsız bir bölümü de Nike'ın UI/UX standartlarına bağlı kalarak kendim bir tasarım yaparak geliştirdim. İşte o bölüm: 
+
+<img width="1440" alt="image" src="https://github.com/YildizDikme/Nike-Clone-React-Project/assets/103577317/f03f5607-ee60-4e08-86d4-5af5951b5a1c">
+
+
 ## Kullanılan Teknolojiler
 
 - React.js: Projeyi geliştirmek için React.js kütüphanesini kullandım. React bileşenleri oluşturmak, bileşenler arası iletişimi sağlamak ve yeniden kullanılabilirliği artırmak için React.js'i tercih ettim. Component mantığı sayesinde kodu parçalara ayırarak daha düzenli ve sürdürülebilir bir proje elde ettim.
